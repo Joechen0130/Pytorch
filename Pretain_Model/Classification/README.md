@@ -1,7 +1,7 @@
 # 使用Resnet101預訓練模型來進行圖片辨識
 分為三個部分
 1.圖片前處理
-2.帶入預訓練模型
+2.代入預訓練模型
 3.辦識結果
 
 # _Step1 : 圖片前處理_
@@ -21,7 +21,7 @@
     第一維代表batch_size
     batch_image = torch.unsqueeze(image_preprocess,0)#在第0階處
 
-# _Step2 :_ _帶入預訓練模型_
+# _Step2 :_ _代入預訓練模型_
 模型設為eval模式  
 並帶入圖片
     
