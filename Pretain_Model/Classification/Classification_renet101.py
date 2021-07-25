@@ -19,7 +19,8 @@ prepocess = transforms.Compose([
     )
 ])
 
-image = Image.open("bobby.jpg")
+image = Image.open("cat.jpg")
+image.show()
 image_preprocess = prepocess(image)
 #print(image_preprocess.shape)#[3,224,224]
 
