@@ -5,6 +5,7 @@
 
     yolo5 = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 ##  載入原圖  
+[圖片來源](https://www.pexels.com/zh-tw/photo/297927/)  
 
     image = Image.open("test.jpg")
     image.show()
