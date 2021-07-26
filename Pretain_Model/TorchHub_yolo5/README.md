@@ -8,10 +8,10 @@
 
     image = Image.open("test.jpg")
     image.show()
-![]()
+![](https://github.com/Joechen0130/Pytorch/blob/master/Pretain_Model/TorchHub_yolo5/test.jpg)
 
 ## 偵測結果並檢視儲存  
     result = yolo5(image)
     result.show()
     result.save("result")
-![]()
+![](https://github.com/Joechen0130/Pytorch/blob/master/Pretain_Model/TorchHub_yolo5/result/test.jpg)
